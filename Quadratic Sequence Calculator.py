@@ -76,3 +76,5 @@ elif SeType == "Qua":
 elif SeType == "Geo":
     SeqN = s1 * ComRat ** (TermN1 - 1)
     print(SeqN)
+
+print("Hello World")
