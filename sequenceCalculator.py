@@ -12,9 +12,11 @@ def init():
         if c / b == b / a:
             type = "geometric"
             termRule = f"{type}:    {a} {b / a}^ (n-1)"
+            # test  this
         else: 
             type = "quadratic"
-            termRule = f"{type}:    "
+            x = ((c - b) - (b - c))*0.5
+            termRule = f"{type}:    {x}n\N{}"
 
 
 # print(f"b\N{SUPERSCRIPT THREE}")
@@ -24,3 +26,8 @@ def init():
 # print(f"\N{00B0}")
 
 # LOOK THROUGH THIS THOROUGLY https://unicode-table.com/en/sets/mathematical-signs/
+
+# https://unicode-table.com/en/207F/ superscript n
+# https://unicode-table.com/en/00B2/ superscript 2 ie squared
+# https://unicode-table.com/en/207B/ superscript minus
+# https://unicode-table.com/en/00B9/ superscript 1 
