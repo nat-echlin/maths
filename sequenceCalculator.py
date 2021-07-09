@@ -20,3 +20,7 @@ def init():
 # print(f"b\N{SUPERSCRIPT THREE}")
 
 #    https://unicode.org/Public/UNIDATA/NamesList.txt
+
+# print(f"\N{00B0}")
+
+# LOOK THROUGH THIS THOROUGLY https://unicode-table.com/en/sets/mathematical-signs/
